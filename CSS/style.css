@@ -1,0 +1,152 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #782221;
+    width: 72.5em;
+    height: 18em;
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 100%;
+    background-color: #2c1d27;
+    color:white;
+    height: 8em;
+    overflow: auto;
+    flex-direction: row;
+    
+}
+
+.FlexContainer div {
+    align-content: center;
+    width: 20em;
+    height: 1.1em;
+    margin: 3em;
+    background-color: black;
+    
+    
+}
+
+.container {
+    width: 72.5em;
+    height: 78em;
+    margin: auto;
+    
+}
+
+.sidebar {
+    width: 35%;
+    height: 100%;
+    float: left;
+    background-color: #782221 ;
+    color: rgb(255, 255, 255);
+}
+      
+
+.main {
+    width: 65%;
+    height: 100%;
+    float: right;
+}
+
+.apropos {
+    margin: 1.5em;
+}
+
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info {
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.skill {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #782221; 
+    padding: 5px;
+}
+
+.level {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    color: black;
+    background-color: #dbc2a4;
+    border-left-style: inset;
+    margin: 0.6em;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail {
+    font-size: 16px;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 2em;
+  }
+  
+.container {
+    overflow: auto;
+  }
+  
+.section {
+    margin: 0px;
+  }
+  
+p, li, ul, h2 {
+  line-height: 1.5; 
+  margin-bottom: 10px; 
+}
+
+p,  {
+    margin: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #782221;
+    width: 72.5em;
+    margin: auto;
+    
+}
+img {
+    margin: 46px;
+    width: 80px;
+    
+    
+}
