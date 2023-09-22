@@ -5,7 +5,8 @@
     padding: 0;
 }
 .top {
-    
+    margin: auto;
+    display: black;
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #782221;
@@ -136,6 +137,22 @@ p,  {
     margin: 2em;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color: #782221;
+    width: 72.5em;
+    margin: auto;
+}
+
+img {
+    margin: 46px;
+    width: 80px;
+    
+    
+}
+
+
 footer {
     display: flex;
     justify-content: center;
@@ -144,9 +161,4 @@ footer {
     margin: auto;
     
 }
-img {
-    margin: 46px;
-    width: 80px;
-    
-    
-}
+
